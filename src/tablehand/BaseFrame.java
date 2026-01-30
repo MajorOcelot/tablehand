@@ -1,14 +1,14 @@
 package tablehand;
 
+import java.awt.Component;
+
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class BaseFrame extends JFrame 
 {
 	BaseFrame()
-	{
-		new Label("How's it goin?");
-		
-		
+	{		
 		// Sets title for frame
 		this.setTitle("Tablehand");
 		
@@ -24,6 +24,8 @@ public class BaseFrame extends JFrame
 		// Displays the Frame
 		this.setVisible(true);
 		
+		JLabel testLabel = new JLabel("Hello");
 		
+		this.add(testLabel);
 	}
 }
