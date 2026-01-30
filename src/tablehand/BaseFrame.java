@@ -6,6 +6,9 @@ public class BaseFrame extends JFrame
 {
 	BaseFrame()
 	{
+		new Label("How's it goin?");
+		
+		
 		// Sets title for frame
 		this.setTitle("Tablehand");
 		
@@ -20,5 +23,7 @@ public class BaseFrame extends JFrame
 		
 		// Displays the Frame
 		this.setVisible(true);
+		
+		
 	}
 }
